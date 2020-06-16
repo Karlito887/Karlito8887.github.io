@@ -1,0 +1,32 @@
+.wrapperDilogs {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+
+    padding: 16px;
+}
+
+.dialogs__item {
+    display: flex;
+    align-items: center;
+}
+
+.dialogs__item a {
+    text-decoration: none;
+    color: rgb(43, 70, 161);
+    font-weight: 500;
+}
+
+.active {
+    border: 1px solid rgb(43, 70, 161);
+    border-radius: 10px;
+    width: 100px;
+}
+
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    margin-right: 12px;
+}

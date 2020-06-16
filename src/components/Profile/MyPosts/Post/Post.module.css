@@ -1,0 +1,33 @@
+.item {
+    color: darkmagenta;
+    display: flex;
+    align-items: center;
+
+
+  }
+  .active {
+    background: darkolivegreen;
+  }
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 8px;
+
+}
+.like {
+    color: white;
+    margin-left: 16px;
+    font-size: 18px;
+}
+.like:hover {
+    font-style: italic;
+    cursor: pointer;
+}
+
+.likeCount {
+    color: goldenrod;
+    border: 1px solid goldenrod;
+    margin-left: 8px;
+}

@@ -1,0 +1,13 @@
+.wrapper {
+    margin: 8px;
+}
+
+.item {
+    border: 1px solid gray;
+    margin: 4px;
+}
+
+.selectedPage {
+    font-weight: bold;
+    font-size: 18px;
+}

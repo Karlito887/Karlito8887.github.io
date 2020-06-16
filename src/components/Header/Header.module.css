@@ -1,0 +1,15 @@
+.header {
+    grid-area: h;
+    background: linear-gradient(45deg, rgb(179, 0, 149), rgb(255, 0, 0));
+    display: flex;
+    justify-content: space-between;
+  }
+.logo {
+    width: 40px;
+    margin: 8px;
+  }
+
+.header a {
+  color: rgb(243, 247, 0);
+  font-size: 20px;
+}
